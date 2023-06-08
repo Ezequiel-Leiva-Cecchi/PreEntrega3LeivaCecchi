@@ -1,0 +1,24 @@
+//Media queries
+@media (max-width: 992px) {
+  .offcanvas-header {
+    background-color: $nav-y-footer-color;
+
+    .offcanvas-title {
+      color: #00C6CF;
+    }
+  }
+
+  .offcanvas-body {
+    background-color: #2C74B3;
+  }
+//Footer
+footer{
+  
+  .pie-pagina{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+}
+ 
+}

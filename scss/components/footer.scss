@@ -1,0 +1,86 @@
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: $nav-y-footer-color;
+  color: #FF5E03;
+  padding: 10% 0px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  bottom: 0;
+
+  .pie-pagina {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+
+  .footer-productos-item {
+    flex-direction: column;
+    padding-right: 30%;
+
+    a {
+      text-decoration: none;
+      color: #FF5E03;
+
+      &:hover {
+        color: aliceblue;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0vw 1vw;
+    justify-content: center;
+    gap: 20px;
+
+    .instagram {
+      color: fuchsia;
+      width: 20%;
+      height: 20%;
+
+      &:hover {
+        color: aliceblue;
+      }
+
+    }
+
+    .facebook {
+      color: blue;
+      width: 20%;
+      height: 20%;
+
+      &:hover {
+        color: aliceblue;
+      }
+    }
+
+    .twitter {
+      color: #58FAF4;
+      width: 20%;
+      height: 20%;
+
+      &:hover {
+        color: aliceblue;
+      }
+    }
+
+    div{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .enviar{
+        background-color: #191919;
+        color: #FF5E03;
+        padding: 16% 30%;
+        &:hover{
+          transform: scale(1.20);
+        }
+      }
+    }
+
+  }
+}
